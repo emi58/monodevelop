@@ -27,7 +27,7 @@ using MonoDevelop.Ide.Gui.Dialogs;
 
 namespace MonoDevelop.VersionControl.Git
 {
-	public sealed class GitOptionsPanel : OptionsPanel
+	sealed class GitOptionsPanel : OptionsPanel
 	{
 		GitOptionsPanelWidget widget;
 

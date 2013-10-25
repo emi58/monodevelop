@@ -39,7 +39,7 @@ using System.IO;
 
 namespace MonoDevelop.VersionControl.Git
 {
-	public sealed class MyersDiff : GitCommand<IList<DiffEntry>>
+	sealed class MyersDiff : GitCommand<IList<DiffEntry>>
 	{
 		AbstractTreeIterator oldTree;
 
